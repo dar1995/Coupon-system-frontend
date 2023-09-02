@@ -1,0 +1,50 @@
+.Login {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Login .loginForm {
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    width: 80%;
+}
+
+.Login .loginForm .MyInput, .Login .loginForm .MySelect {
+    width: 60%;
+}
+
+
+.authSubmitButton {
+    width: 60%;
+    height: 5vh;
+    background-color: var(--color-primary);
+    font-family: "Oswald";
+    font-size: 2vmin;
+    letter-spacing: 0.1vw;
+    color: var(--color-background);
+    margin-top: 2vh;
+}
+
+.authSubmitButton:hover {
+    background-color: var(--color-footer);
+    border-color: var(--color-footer);
+    transition-duration: 100ms;
+    cursor: pointer;
+}
+
+.authSubmitButton:disabled {
+    background-color: var(--color-footer);
+    border-color: var(--color-footer);
+}
+
+
+
+.errorSpan {
+    color: red;
+    font-weight: 300;
+}

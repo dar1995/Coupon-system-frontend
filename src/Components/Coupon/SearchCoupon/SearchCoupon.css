@@ -1,0 +1,17 @@
+.SearchCoupon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SearchCoupon .couponsSearchBar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2vh;
+    width: 80%;
+
+}
+
+.SearchCoupon .couponsSearchBar>* {
+    width: 30%;
+}

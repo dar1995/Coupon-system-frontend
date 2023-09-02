@@ -1,0 +1,20 @@
+.Coupons .addIcon {
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+}
+
+.Coupons .addIcon path {
+    color: var(--color-deals);
+}
+
+.Coupons .addIconPopper {
+    background-color: var(--color-footer);
+    border-radius: 6px;
+}
+
+.Coupons .addIconPopper p {
+    margin: 3px;
+    color: var(--color-primary);
+    font-weight: 300;
+}

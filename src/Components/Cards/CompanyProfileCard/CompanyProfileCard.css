@@ -1,0 +1,13 @@
+.CompanyProfileCard {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CompanyProfileCard .companyDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.CompanyProfileCard .companyImg img {
+    width: 40vmin;
+}

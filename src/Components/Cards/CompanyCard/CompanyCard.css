@@ -1,0 +1,90 @@
+.CompanyCard {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+
+}
+
+
+.CompanyCardMain {
+    display: flex;
+    gap: 5vw;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+.CompanyCard .firstRow {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.CompanyCard .firstRow>img {
+    width: 20vw;
+    border-radius: 50%;
+}
+
+.CompanyCard .firstRow button {
+    color: var(--color-primary);
+    padding: 1vmin;
+    font-family: 'Oswald';
+    font-size: 1.2vw;
+    width: 20vw;
+    background-color: var(--color-tertiary);
+    border-color: var(--color-tertiary);
+}
+
+.CompanyCard .firstRow button:hover {
+    cursor: pointer;
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+
+.CompanyCard .detailsRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CompanyCard .detailsRow h1 {
+    margin-top: 0;
+    margin-bottom: 4vh;
+}
+
+.CompanyCard .detailsRow p {
+    font-weight: 300;
+}
+
+.CompanyCard .buttonsRow {
+    display: flex;
+    align-items: flex-end;
+    gap: 1.5vw;
+    padding-bottom: 1vh;
+}
+
+.CompanyCard .buttonsRow button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.CompanyCard .buttonsRow path {
+    color: var(--color-primary);
+
+}
+
+.CompanyCard .buttonsRow>*:hover path {
+    color: var(--color-tertiary);
+    cursor: pointer;
+}
+
+.CompanyCard .companyCoupons {
+    display: flex;
+    gap: 2vh;
+    margin-bottom: 1vh;
+}
+
+.CompanyCard .companyCoupons>* {
+    width: 20vw;
+    height: 20vh;
+}

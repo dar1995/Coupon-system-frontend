@@ -1,0 +1,28 @@
+.SecondBar {
+    width: 100%;
+    background-color: var(--color-secondary);
+    display: grid;
+}
+
+.SecondBar .selectors {
+    display: flex;
+    grid-column: 3 /span 12;
+    font-size: 17px;
+    height: 40px;
+
+}
+
+.SecondBar .selectors * {
+    display: flex;
+    align-items: center;
+    color: var(--color-primary);
+    text-decoration: none;
+    height: 100%;
+
+
+}
+
+.SecondBar .selectors *:hover {
+    background-color: initial;
+    color: var(--color-deals);
+}

@@ -1,0 +1,24 @@
+.AddCustomer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.AddCustomer .addCustomerForm {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.AddCustomer .addCustomerForm .MyInput {
+    width: 100%;
+}
+
+.AddCustomer .addCustomerForm button {
+    width: 100%;
+}

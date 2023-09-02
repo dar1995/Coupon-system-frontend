@@ -1,0 +1,10 @@
+.EmptyView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+
+.EmptyView img {
+    width: 50vmin;
+}

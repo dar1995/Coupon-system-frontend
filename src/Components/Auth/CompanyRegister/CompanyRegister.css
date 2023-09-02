@@ -1,0 +1,19 @@
+.CompanyRegister {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CompanyRegister .registerForm {
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    width: 80%;
+}
+
+.CompanyRegister .registerForm .MyInput {
+    width: 60%;
+}

@@ -1,0 +1,24 @@
+.UpdateCompany {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.UpdateCompany .updateCompanyForm {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.UpdateCompany .updateCompanyForm .MyInput {
+    width: 100%;
+}
+
+.UpdateCompany .updateCompanyForm button {
+    width: 100%;
+}

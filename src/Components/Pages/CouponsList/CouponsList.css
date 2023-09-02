@@ -1,0 +1,62 @@
+.CouponsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.CouponsList .SearchCoupon {
+    width: 100%;
+}
+
+.CouponsList>form {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.CouponsList .SearchCoupon .CouponsDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 50px;
+    row-gap: 20px;
+}
+
+.CouponsList .SearchCoupon .couponsSearchBar {
+    width: 80%;
+
+}
+
+.CouponsList .SearchCoupon .CouponsDisplay>.CouponDisplayCard {
+    width: 20%;
+    max-height: 300px;
+}
+
+.CouponsList .SearchCoupon .CouponsDisplay p {
+    font-weight: 500;
+}
+
+@media(max-width:1250px) {
+    .CouponsList .SearchCoupon .CouponsDisplay>.CouponDisplayCard {
+        width: 25%;
+    }
+}
+
+@media(max-width:1100px) {
+    .CouponsList .SearchCoupon .CouponsDisplay>.CouponDisplayCard {
+        width: 35%;
+    }
+}
+
+@media(max-width:800px) {
+    .CouponsList .SearchCoupon .CouponsDisplay {
+        justify-content: center;
+    }
+
+    .CouponsList .SearchCoupon .CouponsDisplay>.CouponDisplayCard {
+        width: 50%;
+    }
+}

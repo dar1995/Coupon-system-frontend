@@ -1,0 +1,30 @@
+.ProfileMenu {
+    display: flex;
+    padding-top: 10vh;
+}
+
+.ProfileMenu .AccountMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    position: fixed;
+}
+
+.ProfileMenu .AccountMenu li {
+    border-bottom: 1px solid;
+}
+
+.ProfileMenu .AccountMenu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 2vmin;
+
+}
+
+.ProfileMenu .AccountMenu a:hover {
+    color: var(--color-deals);
+}

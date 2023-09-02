@@ -1,0 +1,62 @@
+.CouponListCard {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    border-color: var(--color-primary);
+}
+
+.CouponListCard .couponTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CouponListCard .imgCul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vh
+}
+
+.CouponListCard .imgCul img {
+    width: 15vw;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+.CouponListCard .couponDetails {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+
+.CouponListCard .couponDetails .couponsDetailsCon {
+    display: flex;
+    gap: 5vw;
+}
+
+.CouponListCard .couponDetails .buttonsRow {
+    display: flex;
+    gap: 1.5vw;
+    align-items: start;
+    justify-content: center;
+
+}
+
+.CouponListCard .buttonsRow button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.CouponListCard .buttonsRow path {
+    color: var(--color-primary);
+
+}
+
+.CouponListCard .buttonsRow>*:hover path {
+    color: var(--color-tertiary);
+    cursor: pointer;
+}

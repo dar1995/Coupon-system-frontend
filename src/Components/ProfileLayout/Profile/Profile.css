@@ -1,0 +1,17 @@
+.Profile {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    min-height: 70vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vh;
+
+}
+
+.Profile .ProfileMenu {
+    grid-column: 2 span;
+}
+
+.Profile .ProfileMain {
+    grid-column: 10 span;
+}

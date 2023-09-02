@@ -1,0 +1,9 @@
+.MyLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.MyLogo>a {
+    display: flex;
+    justify-content: center;
+}

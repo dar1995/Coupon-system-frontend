@@ -1,0 +1,84 @@
+.CouponCard {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5%;
+}
+
+
+.CouponCard .couponImg img {
+    width: 25vw;
+    height: 45vh;
+}
+
+.CouponCard .couponHighLights {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 16vw;
+}
+
+.CouponCard .couponHighLights p {
+    font-size: 90%;
+}
+
+.CouponCard .couponHighLights h4 {
+    margin-top: 0;
+}
+
+.CouponCard .couponHighLights .purchaseButtonCon {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.CouponCard .purchaseButton {
+    font-size: 4vmin;
+    padding: 1vmin;
+    color: var(--color-background);
+    background-color: var(--color-deals);
+    border: none
+}
+
+.CouponCard .couponHighLights button:hover {
+    cursor: pointer;
+}
+
+.CouponCard .couponHighLights .purchaseButtonCon button:hover {
+    background-color: var(--color-tertiary);
+}
+
+
+.CouponCard .couponHighLights>button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-primary);
+    background-color: var(--color-background);
+    font-size: 2vmin;
+    padding: 1vmin;
+    width: 15vw;
+    border: none;
+}
+
+.CouponCard .couponHighLights .symbolType {
+    font-size: 3vmin;
+}
+
+.CouponCard .couponDetails {
+    font-weight: 300;
+}
+
+.purchaseButtonCon .errorSpan {
+    width: 14vw;
+}
+
+@media(max-width:720px) {
+    .CouponCard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,26 @@
+.authRow {
+   width: 100%;
+   display: flex;
+   gap: 25px;
+
+}
+
+.authLinks {
+   display: flex;
+   gap: 6px;
+}
+
+
+.authRow * {
+   color: var(--color-primary);
+   text-decoration: none;
+   font-size: 22px;
+}
+
+.authRow a:hover {
+   color: var(--color-deals)
+}
+
+.authRow:hover path {
+   color: var(--color-deals);
+}

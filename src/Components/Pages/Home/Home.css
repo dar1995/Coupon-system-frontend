@@ -1,0 +1,61 @@
+.Home .validHome .dealCoupons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+    margin-bottom: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+
+
+
+
+.Home h1 {
+    font-family: 'Lilita One';
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--color-deals);
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+
+.dealCoupons>* {
+    width: 25%;
+    max-height: 500px;
+
+}
+
+
+.dealCoupons p {
+    font-weight: 900;
+
+
+}
+
+@media(max-width:900px) {
+    .Home .validHome .dealCoupons {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .Home .validHome .dealCoupons>* {
+        width: 35%;
+    }
+
+}
+
+@media(max-width:670px) {
+    .Home .validHome .dealCoupons {
+        justify-content: center;
+    }
+
+    .Home .validHome .dealCoupons>* {
+        width: 80%;
+    }
+
+}

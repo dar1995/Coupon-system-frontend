@@ -1,0 +1,36 @@
+.FollowUs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.FollowUs .payment {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1.5%;
+}
+
+
+.FollowUs .social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1.5%;
+    width: 180px;
+}
+
+
+.FollowUs .social * {
+
+    background: none;
+}
+
+.FollowUs .border {
+    border-left: 1px solid;
+    border-color: black;
+    width: 1px;
+    height: 20px;
+}

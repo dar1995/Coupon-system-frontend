@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+:root {
+  --color-soft-beige: #EDE2DC;
+  --color-dusty-coral: #EDC8B8;
+  --color-terra-cotta: #db9b80;
+  --color-dusty-lilac: #BBB2B5;
+  --color-navy-blue: #123D6A;
+  --color-deep-burgundy: #AB3B61;
+  --color-black: #0B0C10;
+  --color-dark-blue: #1F2833;
+  --color-grey: #C5C6C7;
+  --color-dark-grey: #133641;
+  --color-turquoise: #66FCF1;
+  --color-teal: #46A29F;
+  --color-midnight-blue: #222629;
+  --color-steel-grey: #474A4F;
+  --color-charcoal-grey: #6A6E71;
+  --color-lime-green: #87C232;
+  --color-forest-green: #618930;
+
+
+  --color-primary: var(--color-navy-blue);
+  --color-secondary: var(--color-dusty-coral);
+  --color-tertiary: var(--color-terra-cotta);
+  --color-background: var(--color-soft-beige);
+  --color-footer: var(--color-dusty-lilac);
+  --color-deals: var(--color-deep-burgundy);
+
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Oswald';
+}
+
+.dark {
+  --color-primary: var(--color-lime-green);
+  --color-background: var(--color-midnight-blue);
+  --color-secondary: var(--color-steel-grey);
+  --color-tertiary: var(--color-charcoal-grey);
+  --color-footer: var(--color-charcoal-grey);
+  --color-deals: var(--color-teal);
+}
+
+.light {
+  --color-primary: var(--color-navy-blue);
+  --color-secondary: var(--color-dusty-coral);
+  --color-tertiary: var(--color-terra-cotta);
+  --color-background: var(--color-soft-beige);
+  --color-footer: var(--color-dusty-lilac);
+  --color-deals: var(--color-deep-burgundy);
+
+}
+
+.invalid {
+  border-color: rgb(244, 0, 0) !important;
+}

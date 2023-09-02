@@ -1,0 +1,13 @@
+.CustomerProfileCard {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CustomerProfileCard .customerDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.CustomerProfileCard .customerDetails img {
+    width: 40vmin;
+}

@@ -1,0 +1,27 @@
+.app {
+  display: grid;
+  grid-template-columns: repeat(1fr, 24);
+  grid-template-rows: 140px auto 120px;
+  height: 100vh;
+  color: var(--color-primary);
+  background-color: var(--color-background);
+  overflow-y: auto;
+
+
+}
+
+.app .Header {
+  grid-row: 1;
+  grid-column: 24 span;
+}
+
+.app .Footer {
+  grid-row: 3;
+  grid-column: 24 span;
+
+}
+
+.app .Main {
+  grid-row: 2;
+  grid-column: 24 span;
+}

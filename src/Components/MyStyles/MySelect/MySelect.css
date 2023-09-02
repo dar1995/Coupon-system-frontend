@@ -1,0 +1,14 @@
+.MySelect .selectFormControl {
+    width: 100%;
+    min-width: 12vw;
+}
+
+.selectFormControl label {
+    color: var(--color-primary)
+}
+
+.MySelect {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh
+}

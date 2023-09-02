@@ -1,0 +1,51 @@
+.errorDelete .iconBox {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+    background-color: rgb(243, 47, 47);
+    color: white;
+}
+
+.errorDelete h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.errorDelete p {
+    color: var(--color-primary);
+}
+
+.errorDelete .dialogButtons {
+    justify-content: center;
+    align-items: center;
+}
+
+.dialogButtons button {
+    background-color: var(--color-secondary);
+    width: 50%;
+    color: var(--color-primary);
+    font-family: 'Oswald';
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.dialogButtons button:hover {
+    background-color: var(--color-tertiary);
+}
+
+.ConfirmationDialog .dialogButtons {
+    justify-content: center;
+}
+
+.ConfirmationDialog p {
+    color: var(--color-primary);
+}
+
+.ConfirmationDialog h2 {
+    text-align: center;
+    font-size: xx-large;
+
+}

@@ -1,0 +1,18 @@
+.Register {
+    width: 90%;
+    padding-top: 3vh;
+}
+
+.Register .isCustomerLink {
+    color: var(--color-primary);
+    font-weight: 300;
+    margin-left: 2vw;
+    margin-bottom: 0;
+    text-decoration: underline;
+
+}
+
+.Register .isCustomerLink:hover {
+    color: var(--color-deals);
+    cursor: pointer;
+}

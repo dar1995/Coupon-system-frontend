@@ -1,0 +1,20 @@
+.Customers .addIcon {
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+}
+
+.Customers .addIcon path {
+    color: var(--color-deals);
+}
+
+.addIconPopper {
+    background-color: var(--color-footer);
+    border-radius: 6px;
+}
+
+.addIconPopper p {
+    margin: 3px;
+    color: var(--color-primary);
+    font-weight: 300;
+}

@@ -1,0 +1,73 @@
+.MyInput {
+    position: relative;
+}
+
+.authMenuBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 100%;
+}
+
+.authMenuBox>label {
+    width: 100%;
+    letter-spacing: 0.08vw;
+}
+
+.authMenuBox>input, textarea {
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 1px solid;
+    height: 4vh;
+    width: 100%;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background-color: var(--color-background);
+    resize: none;
+    font-family: "Oswald";
+    font-size: medium;
+    font-weight: 300;
+
+}
+
+.MyInput .overLay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.authMenuPopper {
+    z-index: 1300;
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+    border: 1px rgb(244, 0, 0) solid;
+    font-weight: 300;
+    font-size: 1.5vh;
+    max-width: 40%;
+    height: auto;
+}
+
+.authMenuPopper::before {
+    content: '';
+    position: absolute;
+    bottom: -0.67rem;
+    left: 60%;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: inherit;
+    border-bottom: 1px solid rgb(244, 0, 0);
+    border-left: 1px solid rgb(244, 0, 0);
+    transform: translateX(-50%) rotate(-45deg);
+    z-index: -1;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}

@@ -1,0 +1,46 @@
+.MyAccountDropDown {
+   width: 200px;
+   background-color: var(--color-secondary);
+   top: -6px !important;
+
+}
+
+
+
+.tip {
+   border-bottom: 11px solid var(--color-secondary);
+   border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   position: absolute;
+   top: -10px;
+   right: 43%;
+   width: 0;
+   z-index: 1;
+}
+
+.MyAccountDropDown a {
+   color: var(--color-primary);
+   text-decoration: none;
+   font-size: 22px;
+   display: flex;
+   gap: 20px;
+   align-items: center;
+}
+
+.MyAccountDropDown a:hover {
+   color: var(--color-deals);
+
+}
+
+.MyAccountDropDown .nameMI {
+   color: var(--color-primary);
+   font-size: 18px;
+   background-color: var(--color-tertiary);
+
+}
+
+.MyAccountDropDown .nameMI:hover {
+   cursor: default;
+   background-color: var(--color-tertiary);
+   color: var(--color-primary);
+}

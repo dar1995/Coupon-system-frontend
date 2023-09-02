@@ -1,0 +1,24 @@
+.CouponDisplayCard {
+    border: 1px solid;
+    border-color: var(--color-footer);
+}
+
+.CouponDisplayCard a {
+    text-decoration: none;
+}
+
+.CouponDisplayCard .couponDisplayDetails {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--color-primary);
+}
+
+
+
+.CouponDisplayCard a img {
+    width: 100%;
+    height: 85%;
+}
