@@ -31,7 +31,7 @@ function FirstBar(): JSX.Element {
     <div className="firstBar">
       <MyLogo></MyLogo>
       <div className="searchInput">
-        <input type="text" placeholder="Serach for coupons" />
+        <input type="text" placeholder="Search for coupons" />
         <button className="searchButton">
           <FaSearch />
         </button>

@@ -17,6 +17,7 @@ function SuccessDialog({
       onClose={handelDeleteMessageClose}
       className="SuccessDialog"
       style={{ backdropFilter: "blur(15px)" }}
+      disablePortal
     >
       <div className="iconBox">
         <div className="checkIcon">

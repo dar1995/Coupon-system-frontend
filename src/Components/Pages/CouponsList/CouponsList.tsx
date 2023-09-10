@@ -15,7 +15,7 @@ function CouponsList(): JSX.Element {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    if (couponDisplay.length > 0) {
+    if (store.getState().generalCouponsReducer.isWithdraw) {
       return;
     }
     webApiService

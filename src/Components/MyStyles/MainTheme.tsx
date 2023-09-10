@@ -45,7 +45,14 @@ const AppTheme = createTheme({
           "& .MuiIconButton-root": {
             color: "var(--color-primary)",
           },
+          
         },
+        input:{
+          "&.Mui-disabled":{
+            WebkitTextFillColor: "var(--color-primary)",
+
+          }
+        }
       },
     },
     MuiSelect: {
